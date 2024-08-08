@@ -1,0 +1,70 @@
+/* Global Styles */
+:root {
+    --background-color: #121212;
+    --text-color: #e0e0e0; /* Soft White */
+    --highlight-color: #00bcd4; /* Soft Cyan */
+    --font-family: 'Helvetica Neue', Arial, sans-serif;
+  }
+  
+  body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: var(--font-family);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 3rem;
+    margin: 0;
+  }
+  
+  .highlight-red {
+    color: var(--highlight-color); /* Highlight color for text */
+  }
+  
+  .definition {
+    text-align: left;
+    max-width: 600px; /* Smaller box */
+    margin: 2rem auto;
+    padding: 1rem; /* Reduced padding */
+    border: 1px solid var(--text-color); /* Thinner border */
+    border-radius: 8px;
+    background-color: #1e1e1e;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Added subtle shadow */
+  }
+  
+  .definition-header {
+    border-bottom: 1px solid var(--text-color); /* Thinner border */
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .definition-header h2 {
+    font-size: 1.5rem; /* Smaller header font size */
+    margin: 0;
+    color: var(--highlight-color); /* Highlight color for header */
+    font-weight: bold;
+  }
+  
+  .definition-type {
+    font-size: 1rem;
+    color: var(--text-color);
+    margin: 0;
+    font-style: italic; /* Italic style for type */
+    font-weight: normal;
+  }
+  
+  .definition-text {
+    font-size: 1rem; /* Adjusted font size */
+    line-height: 1.5;
+    margin: 0;
+  }
